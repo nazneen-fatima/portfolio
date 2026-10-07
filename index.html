@@ -1,0 +1,426 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nazneen Fatima - Data Scientist portfolio">
+    <title>Nazneen Fatima | Data Scientist</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Sora:wght@600;700;800&family=JetBrains+Mono:wght@500&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ===================== NAVIGATION ===================== -->
+    <header class="navbar" id="top">
+        <div class="container navbar-inner">
+            <a href="#home" class="logo">
+                <span class="logo-mark">NF</span>
+                Nazneen
+            </a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+                <span></span><span></span><span></span>
+            </button>
+
+            <nav class="nav-links" id="navLinks" aria-label="Main">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#certifications" class="nav-link">Credentials</a>
+                <a href="#contact" class="nav-link nav-cta">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- ===================== HOME ===================== -->
+        <section class="hero" id="home">
+            <div class="container hero-grid">
+
+                <div class="hero-text">
+                    <p class="eyebrow"><span class="pulse"></span> Hi, I'm</p>
+
+                    <h1>Nazneen Fatima</h1>
+
+                    <h2 class="hero-role">Data Scientist</h2>
+
+                    <p class="hero-lead">
+                        Building data-driven and AI-powered solutions using
+                        Python, SQL, Machine Learning and Generative AI.
+                    </p>
+
+                    <ul class="tag-row" aria-label="Core technologies">
+                        <li style="--c: var(--violet)">Python</li>
+                        <li style="--c: var(--blue)">SQL</li>
+                        <li style="--c: var(--teal)">Machine Learning</li>
+                        <li style="--c: var(--coral)">GenAI</li>
+                    </ul>
+
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary" id="workButton">
+                            View My Work <span aria-hidden="true">→</span>
+                        </a>
+                        <a href="resume.pdf" class="btn btn-secondary" download>
+                            Download Resume <span aria-hidden="true">↓</span>
+                        </a>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://github.com/nazneen-fatima" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+                        <a href="https://linkedin.com/in/nazneen-fatima-a6748a376" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+                    </div>
+                </div>
+
+                <div class="hero-photo">
+                    <div class="photo-frame">
+                        <span class="photo-initials" aria-hidden="true">NF</span>
+                        <img src="profile.jpg" alt="Nazneen Fatima" class="profile-image" onerror="this.remove()">
+                        <span class="photo-badge">Data Science</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="container">
+                <dl class="hero-stats">
+                    <div><dt>Degree</dt><dd>B.Tech Data Science</dd></div>
+                    <div><dt>Graduating</dt><dd>2026</dd></div>
+                    <div><dt>Projects</dt><dd>4 featured</dd></div>
+                    <div><dt>Certifications</dt><dd>2</dd></div>
+                </dl>
+            </div>
+        </section>
+
+
+        <!-- ===================== ABOUT ===================== -->
+        <section class="section" id="about">
+            <div class="container about-grid">
+
+                <div class="reveal">
+                    <p class="section-label" style="--c: var(--violet)">About</p>
+                    <h2 class="section-title">Turning data into <span class="grad">insight.</span></h2>
+                    <p class="muted-caps">Data Science · AI · Analytics</p>
+                </div>
+
+                <div class="reveal">
+                    <p class="about-intro">
+                        I am a Data Science graduate with a strong interest in solving
+                        real-world problems through data, programming and artificial intelligence.
+                    </p>
+                    <p class="about-text">
+                        My work focuses on using Python and SQL for data analysis, exploring
+                        datasets through EDA, building machine learning solutions, and developing
+                        Generative AI applications using LLMs and RAG.
+                    </p>
+                    <p class="about-text">
+                        I enjoy transforming complex problems into practical and useful solutions
+                        — from analyzing data to developing and deploying AI-powered applications.
+                    </p>
+
+                    <div class="detail-grid">
+                        <div class="detail-card" style="--c: var(--violet)">
+                            <span class="detail-icon">01</span>
+                            <div><h3>Education</h3><p>B.Tech in Data Science</p></div>
+                        </div>
+                        <div class="detail-card" style="--c: var(--teal)">
+                            <span class="detail-icon">02</span>
+                            <div><h3>Focus</h3><p>Data Science &amp; AI</p></div>
+                        </div>
+                        <div class="detail-card" style="--c: var(--coral)">
+                            <span class="detail-icon">03</span>
+                            <div><h3>Approach</h3><p>Analytical &amp; Problem Solving</p></div>
+                        </div>
+                        <div class="detail-card" style="--c: var(--amber)">
+                            <span class="detail-icon">04</span>
+                            <div><h3>Current</h3><p>Building AI &amp; Data Projects</p></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ===================== SKILLS ===================== -->
+        <section class="section section-tint" id="skills">
+            <div class="container">
+
+                <div class="section-head reveal">
+                    <div>
+                        <p class="section-label" style="--c: var(--teal)">Expertise</p>
+                        <h2 class="section-title">My <span class="grad">skills.</span></h2>
+                    </div>
+                    <p class="section-intro">
+                        Technologies and capabilities I use to build data-driven and AI-powered solutions.
+                    </p>
+                </div>
+
+                <div class="skills-grid">
+
+                    <article class="skill-card reveal" style="--c: var(--violet)">
+                        <h3 class="skill-title"><span>01</span> Programming</h3>
+                        <ul class="skill-items">
+                            <li><b>PY</b> Python</li>
+                            <li><b>SQL</b> SQL</li>
+                        </ul>
+                    </article>
+
+                    <article class="skill-card reveal" style="--c: var(--blue)">
+                        <h3 class="skill-title"><span>02</span> Data &amp; Analytics</h3>
+                        <ul class="skill-items">
+                            <li><b>PD</b> Pandas</li>
+                            <li><b>EDA</b> Exploratory Data Analysis</li>
+                            <li><b>EX</b> Excel</li>
+                            <li><b>MP</b> Matplotlib</li>
+                        </ul>
+                    </article>
+
+                    <article class="skill-card reveal" style="--c: var(--teal)">
+                        <h3 class="skill-title"><span>03</span> Machine Learning</h3>
+                        <ul class="skill-items">
+                            <li><b>ML</b> Machine Learning</li>
+                            <li><b>CV</b> Computer Vision</li>
+                        </ul>
+                    </article>
+
+                    <article class="skill-card reveal" style="--c: var(--coral)">
+                        <h3 class="skill-title"><span>04</span> Generative AI</h3>
+                        <ul class="skill-items">
+                            <li><b>AI</b> LLMs</li>
+                            <li><b>RG</b> RAG</li>
+                            <li><b>PE</b> Prompt Engineering</li>
+                        </ul>
+                    </article>
+
+                    <article class="skill-card reveal" style="--c: var(--amber)">
+                        <h3 class="skill-title"><span>05</span> Development</h3>
+                        <ul class="skill-items">
+                            <li><b>FA</b> FastAPI</li>
+                            <li><b>ST</b> Streamlit</li>
+                            <li><b>DK</b> Docker</li>
+                            <li><b>AZ</b> Azure</li>
+                            <li><b>GH</b> Git / GitHub</li>
+                        </ul>
+                    </article>
+
+                    <article class="skill-card skill-card-core reveal" style="--c: var(--pink)">
+                        <h3 class="skill-title"><span>06</span> Core Skills</h3>
+                        <ul class="core-list">
+                            <li>Communication</li>
+                            <li>Time Management</li>
+                            <li>Accuracy</li>
+                            <li>Problem Solving</li>
+                            <li>Teamwork</li>
+                            <li>Adaptability</li>
+                            <li>Analytical Thinking</li>
+                            <li>Quick Learning</li>
+                        </ul>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ===================== PROJECTS ===================== -->
+        <section class="section" id="projects">
+            <div class="container">
+
+                <div class="section-head reveal">
+                    <div>
+                        <p class="section-label" style="--c: var(--coral)">Selected work</p>
+                        <h2 class="section-title">Featured <span class="grad">projects.</span></h2>
+                    </div>
+                    <p class="section-count">4 projects</p>
+                </div>
+
+                <div class="projects-grid">
+
+                    <!-- PROJECT 01 -->
+                    <article class="project-card reveal" style="--c: var(--violet)">
+                        <div class="project-top">
+                            <span class="project-num">01</span>
+                            <span class="project-type">Generative AI · Cloud</span>
+                        </div>
+                        <h3>RAG using Docker &amp; Azure Deployment</h3>
+                        <p>
+                            A Retrieval-Augmented Generation application designed to work with
+                            external knowledge and provide context-aware responses using an LLM.
+                            The application was containerized with Docker and deployed using Azure services.
+                        </p>
+                        <ul class="project-tech">
+                            <li>RAG</li><li>LLM</li><li>FastAPI</li><li>Docker</li><li>Azure</li>
+                        </ul>
+                        <a href="https://github.com/nazneen-fatima/RAG_Docker_Azure" target="_blank" rel="noopener noreferrer" class="project-link">
+                            View on GitHub <span aria-hidden="true">→</span>
+                        </a>
+                    </article>
+
+                    <!-- PROJECT 02 -->
+                    <article class="project-card reveal" style="--c: var(--teal)">
+                        <div class="project-top">
+                            <span class="project-num">02</span>
+                            <span class="project-type">Machine Learning · Web App</span>
+                        </div>
+                        <h3>California House Price Prediction</h3>
+                        <p>
+                            A machine learning application that predicts California house prices from
+                            user-provided features. The project combines a trained prediction model with
+                            a Streamlit interface and FastAPI backend.
+                        </p>
+                        <ul class="project-tech">
+                            <li>Python</li><li>ML</li><li>Streamlit</li><li>FastAPI</li><li>Docker</li>
+                        </ul>
+                        <!-- REPLACE the link below with the exact repository link for this project -->
+                        <a href="https://github.com/nazneen-fatima" target="_blank" rel="noopener noreferrer" class="project-link">
+                            View on GitHub <span aria-hidden="true">→</span>
+                        </a>
+                    </article>
+
+                    <!-- PROJECT 03 -->
+                    <article class="project-card reveal" style="--c: var(--coral)">
+                        <div class="project-top">
+                            <span class="project-num">03</span>
+                            <span class="project-type">Computer Vision · Automation</span>
+                        </div>
+                        <h3>TrafficSense AI</h3>
+                        <p>
+                            An AI-powered traffic challan automation project using computer vision to
+                            detect traffic violations and support automated challan processing.
+                        </p>
+                        <ul class="project-tech">
+                            <li>Python</li><li>YOLO</li><li>Computer Vision</li><li>Database</li>
+                        </ul>
+                        <!-- REPLACE the link below with the exact repository link for this project -->
+                        <a href="https://github.com/nazneen-fatima" target="_blank" rel="noopener noreferrer" class="project-link">
+                            View on GitHub <span aria-hidden="true">→</span>
+                        </a>
+                    </article>
+
+                    <!-- PROJECT 04 -->
+                    <article class="project-card reveal" style="--c: var(--amber)">
+                        <div class="project-top">
+                            <span class="project-num">04</span>
+                            <span class="project-type">GenAI · LLM · Prompt Engineering</span>
+                        </div>
+                        <h3>AI Investment Asset Allocation Assistant</h3>
+                        <p>
+                            An AI-based application that maps a user's target asset allocation to suitable
+                            diversified investment options using LLM-powered reasoning and structured prompts.
+                        </p>
+                        <ul class="project-tech">
+                            <li>Python</li><li>LLM</li><li>Groq</li><li>Prompt Engineering</li>
+                        </ul>
+                        <!-- REPLACE the link below with the exact repository link for this project -->
+                        <a href="https://github.com/nazneen-fatima" target="_blank" rel="noopener noreferrer" class="project-link">
+                            View on GitHub <span aria-hidden="true">→</span>
+                        </a>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ===================== EDUCATION & CERTIFICATIONS ===================== -->
+        <section class="section section-tint" id="certifications">
+            <div class="container">
+
+                <div class="section-head reveal">
+                    <div>
+                        <p class="section-label" style="--c: var(--amber)">Credentials</p>
+                        <h2 class="section-title">Education &amp; <span class="grad">certifications.</span></h2>
+                    </div>
+                </div>
+
+                <div class="credentials-grid">
+
+                    <article class="education-card reveal">
+                        <p class="card-label">Education</p>
+                        <p class="education-year">2026</p>
+                        <h3>B.Tech in Data Science</h3>
+                        <p class="college">Aurora's Technological and Research Institute</p>
+                        <p class="location">Hyderabad · Telangana</p>
+                        <div class="result">
+                            <span>Overall percentage</span>
+                            <strong>72%</strong>
+                        </div>
+                    </article>
+
+                    <article class="cert-card reveal">
+                        <p class="card-label">Certifications</p>
+
+                        <div class="cert-item" style="--c: var(--blue)">
+                            <span class="cert-num">01</span>
+                            <div>
+                                <h3>AI Fundamentals</h3>
+                                <p>IBM SkillsBuild</p>
+                            </div>
+                        </div>
+
+                        <div class="cert-item" style="--c: var(--pink)">
+                            <span class="cert-num">02</span>
+                            <div>
+                                <h3>Business Communications</h3>
+                                <p>HP LIFE</p>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ===================== CONTACT ===================== -->
+        <section class="section" id="contact">
+            <div class="container">
+                <div class="contact-panel reveal">
+
+                    <div class="contact-copy">
+                        <p class="section-label" style="--c: var(--amber)">Contact</p>
+                        <h2>Let's <span class="grad-light">connect.</span></h2>
+                        <p class="contact-intro">
+                            Open to opportunities where I can apply data, programming and AI
+                            to solve meaningful problems.
+                        </p>
+                    </div>
+
+                    <div class="contact-links">
+                        <a href="https://github.com/nazneen-fatima" target="_blank" rel="noopener noreferrer" class="contact-link">
+                            <span class="contact-name">GitHub</span>
+                            <span class="contact-url">github.com/nazneen-fatima</span>
+                            <span class="contact-arrow" aria-hidden="true">↗</span>
+                        </a>
+                        <a href="https://linkedin.com/in/nazneen-fatima-a6748a376" target="_blank" rel="noopener noreferrer" class="contact-link">
+                            <span class="contact-name">LinkedIn</span>
+                            <span class="contact-url">linkedin.com/in/nazneen-fatima-a6748a376</span>
+                            <span class="contact-arrow" aria-hidden="true">↗</span>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <span>Nazneen Fatima</span>
+            <span>Data Scientist</span>
+            <span>© 2026</span>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
